@@ -390,7 +390,8 @@ printf("Defaults: output stream: %d/%d, input stream: %d/%d, input codec: %d/%d,
 			cc->bit_rate = ctx.bitrate;
 			cc->profile = FF_PROFILE_H264_HIGH;
 			cc->level = 41;
-			cc->time_base = iflow->codec->time_base;
+//			cc->time_base = iflow->codec->time_base;
+			cc->time_base = (AVRational){1,30};
 
 			oflow->avg_frame_rate = iflow->avg_frame_rate;
 			oflow->r_frame_rate = iflow->r_frame_rate;
@@ -1582,7 +1583,8 @@ int main(int argc, char *argv[])
 			/* Add the flush code here */
 			break;
 		case DECINIT:
-			if (i < 120) /* Bail; decoder doesn't like it */
+//			if (i < 120) /* Bail; decoder doesn't like it */
+			if (i < 500) /* Bail; decoder doesn't like it */
 				break;
 			ctx.decstate = DECFAILED;
 			/* Drop through */

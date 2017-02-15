@@ -1,0 +1,157 @@
+Found a video at index 0
+Frame size: 424x240
+Found stream 0, context 0x8fe500
+Found stream 1, context 0x9001c0
+Obtained handles.  0x9e9840 decode, 0xa02f60 encode
+Found 2 ports, starting at 130 (82) on decoder
+Found 2 ports, starting at 200 (c8) on encoder
+Found 2 ports, starting at 60(3c) on resizer
+Mapping codec ID 28 (1c)
+Mapping codec 28 to 7
+Mapping codec ID 28 (1c)
+Codecs supported:
+	Index:		0
+	Codec:		0 (0)
+	Colour:		0
+	Framerate:	0 (0.000000)
+Levels supported:
+	Index:		0
+	Profile:	1
+	Level:		256
+Levels supported:
+	Index:		1
+	Profile:	32768
+	Level:		256
+Port 130 is input, disabled
+Wants 20 bufs, needs 1, size 81920, enabled: 0, pop: 0, aligned 16
+Video type is currently:
+	MIME:		(null)
+	Native:		(nil)
+	Width:		424
+	Height:		240
+	Stride:		0
+	SliceHeight:	0
+	Bitrate:	0
+	Framerate:	0 (0); (0.000000)
+	Error hiding:	0
+	Codec:		7
+	Colour:		0
+Port 131 is output, disabled
+Wants 1 bufs, needs 1, size 161280, enabled: 0, pop: 0, aligned 16
+Video type is currently:
+	MIME:		(null)
+	Native:		(nil)
+	Width:		424
+	Height:		240
+	Stride:		448
+	SliceHeight:	240
+	Bitrate:	0
+	Framerate:	0 (0); (0.000000)
+	Error hiding:	0
+	Codec:		0
+	Colour:		20
+Port 200 is input, disabled
+Wants 1 bufs, needs 1, size 15360, enabled: 0, pop: 0, aligned 16
+Video type is currently:
+	MIME:		(null)
+	Native:		(nil)
+	Width:		160
+	Height:		64
+	Stride:		160
+	SliceHeight:	64
+	Bitrate:	0
+	Framerate:	1966080 (1e0000); (30.000000)
+	Error hiding:	0
+	Codec:		0
+	Colour:		20
+Port 201 is output, disabled
+Wants 1 bufs, needs 1, size 65536, enabled: 0, pop: 0, aligned 16
+Video type is currently:
+	MIME:		(null)
+	Native:		(nil)
+	Width:		160
+	Height:		64
+	Stride:		160
+	SliceHeight:	64
+	Bitrate:	0
+	Framerate:	0 (0); (0.000000)
+	Error hiding:	0
+	Codec:		4
+	Colour:		0
+Allocated a buffer of 81920 bytes
+Allocated a buffer of 81920 bytes
+Allocated a buffer of 81920 bytes
+Allocated a buffer of 81920 bytes
+Allocated a buffer of 81920 bytes
+Allocated a buffer of 81920 bytes
+Allocated a buffer of 81920 bytes
+Allocated a buffer of 81920 bytes
+Allocated a buffer of 81920 bytes
+Allocated a buffer of 81920 bytes
+Allocated a buffer of 81920 bytes
+Allocated a buffer of 81920 bytes
+Allocated a buffer of 81920 bytes
+Allocated a buffer of 81920 bytes
+Allocated a buffer of 81920 bytes
+Allocated a buffer of 81920 bytes
+Allocated a buffer of 81920 bytes
+Allocated a buffer of 81920 bytes
+Allocated a buffer of 81920 bytes
+Allocated a buffer of 81920 bytes
+Have a filter at 0x900720
+Port 130 is input, enabled
+Wants 20 bufs, needs 1, size 81920, enabled: 1, pop: 1, aligned 16
+Video type is currently:
+	MIME:		(null)
+	Native:		(nil)
+	Width:		424
+	Height:		240
+	Stride:		0
+	SliceHeight:	0
+	Bitrate:	0
+	Framerate:	0 (0); (0.000000)
+	Error hiding:	0
+	Codec:		7
+	Colour:		0
+Port 131 is output, disabled
+Wants 1 bufs, needs 1, size 161280, enabled: 0, pop: 0, aligned 16
+Video type is currently:
+	MIME:		(null)
+	Native:		(nil)
+	Width:		424
+	Height:		240
+	Stride:		448
+	SliceHeight:	240
+	Bitrate:	0
+	Framerate:	0 (0); (0.000000)
+	Error hiding:	0
+	Codec:		0
+	Colour:		20
+Port 200 is input, disabled
+Wants 1 bufs, needs 1, size 15360, enabled: 0, pop: 0, aligned 16
+Video type is currently:
+	MIME:		(null)
+	Native:		(nil)
+	Width:		160
+	Height:		64
+	Stride:		160
+	SliceHeight:	64
+	Bitrate:	0
+	Framerate:	1966080 (1e0000); (30.000000)
+	Error hiding:	0
+	Codec:		0
+	Colour:		20
+Port 201 is output, disabled
+Wants 1 bufs, needs 1, size 65536, enabled: 0, pop: 0, aligned 16
+Video type is currently:
+	MIME:		(null)
+	Native:		(nil)
+	Width:		160
+	Height:		64
+	Stride:		160
+	SliceHeight:	64
+	Bitrate:	0
+	Framerate:	0 (0); (0.000000)
+	Error hiding:	0
+	Codec:		4
+	Colour:		0

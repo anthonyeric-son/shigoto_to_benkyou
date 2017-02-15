@@ -1,0 +1,1 @@
+./omxtx -b 512000 -r 1080x600 bunny.mp4 rtmp://192.168.2.109/live/xbunny.flv

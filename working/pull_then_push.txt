@@ -1,0 +1,2 @@
+ ./omxtx -b 512000 -r 1080x600 rtmp://192.168.1.12/live/test rtmp://192.168.1.12/live/xbunny.flv
+
